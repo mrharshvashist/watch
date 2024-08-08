@@ -1,0 +1,60 @@
+#container{
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: navy;
+}
+#watch{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(177, 166, 166);
+    /* background-color: #fff; */
+    border-radius: 50%;
+    border: 5px solid black;
+    /* box-shadow:0 0 20px rgb(88, 88, 88) ;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.niddle1{
+height: 160px;
+width: 8px;
+background-color: black;
+position: relative;
+left: 190px;
+top: 30px;
+
+
+
+}
+.niddle2{
+    top: 30px;
+height: 11px;
+width: 150px;
+background-color: black;
+position: relative;
+left: 190px;
+/* animation: move 10s  2s infinite forwards ; */
+
+
+}
+/* @keyframes move {
+    from{
+        /* rotate: -360deg; */
+        /* transform: translate(50px); */
+        
+    /* } */
+    /* to{ */
+        /* transform: translate(50px); */
+        /* rotate: 360deg; */
+    /* } */
+    
+/* } */
+.number{
+    position: absolute;
+}
